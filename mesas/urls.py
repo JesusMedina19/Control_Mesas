@@ -7,5 +7,6 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name='index'),
+    path('agregar_piso/', views.agregar_piso, name='agregar_piso'),
 
 ]
