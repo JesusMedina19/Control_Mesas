@@ -4,4 +4,5 @@ from .models import *
 admin.site.register(Mesa)
 admin.site.register(Estado)
 admin.site.register(Empleado)
+admin.site.register(Piso)
 
